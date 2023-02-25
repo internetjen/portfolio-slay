@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class Navigation extends Component {
-    state = { cliked: false }
+    state = { clicked: false }
 
     handleClick = () => {
         this.setState({clicked:
