@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 const App = () => 
   <div>
         <Navigation />
-        <Header />
+            <Header />
         {/* <Project />
         <Footer /> */}
     </div>
