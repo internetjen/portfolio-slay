@@ -88,9 +88,8 @@ nav li:hover::after{
 }
 
 
-
 /* header */
-.hero-container {
+.hero-container, .contact-container {
   background-color: #F3F7F0;
   display: flex;
   justify-content: center;
@@ -99,7 +98,7 @@ nav li:hover::after{
   margin: 0 auto;
 }
 
-.hero-container p {
+.hero-container p , .contact-container p {
   font-size: 24px;
 }
 
@@ -184,7 +183,44 @@ nav li:hover::after{
   flex: 1 0 calc(33.33% - 10px);
 }
 
+/* contact */
+.right-container .user {
+  width: 20rem;
+  height: 2rem;
+  padding: .5rem;
+  outline: none;
+  border: 2px solid #FE5E41;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.right-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.contact-container {
+  overflow-x: hidden;
+
+}
+ 
+textarea {
+  min-height: 6rem;
+  max-height: 12rem;
+  min-width: 20rem;
+  max-width: 20rem;
+}
+
+.contact-button {
+  padding: 10px;
+  margin: 20px 5px;
+}
 
 /* mobile settings */
 @media screen and (max-width: 769px) {
@@ -254,6 +290,10 @@ nav li:hover::after{
 
    .card {
     flex-basis: 100%;
+  }
+
+  .contact-container {
+    flex-direction: column;
   }
   
 }
