@@ -11,7 +11,7 @@ class Header extends Component {
                 <img src={profile} alt='profile-photo'/>
             </div>
 
-            <div className='right-container'>
+            <div className='right-container' id='about'>
                 <p>Hi, my name is</p>
                 <p>Jennifer Arboleda</p>
                 <p>I am a <span>software engineer</span> living in Chicago.</p>

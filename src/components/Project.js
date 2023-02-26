@@ -5,7 +5,7 @@ class Project extends Component {
     render() {
     return (
         <>
-        <div className='project-container'>
+        <div className='project-container' id='projects'>
            <div className='card'>
                 <h2>Project 1</h2>
                 <img src='https://via.placeholder.com/200' alt='placeholderImg'></img>
