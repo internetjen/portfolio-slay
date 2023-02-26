@@ -8,7 +8,7 @@ class Header extends Component {
         <>
         <div className='hero-container'>
             <div className='left-container'>
-                <img src={profile} alt='profile-photo'/>
+                <img src={profile} alt='profile'/>
             </div>
 
             <div className='right-container' id='about'>
