@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-slay/static/css/main.fea32d57.css",
+    "main.js": "/portfolio-slay/static/js/main.5035426c.js",
+    "static/js/787.e3b66f14.chunk.js": "/portfolio-slay/static/js/787.e3b66f14.chunk.js",
+    "static/media/me_circle.png": "/portfolio-slay/static/media/me_circle.1547ae4be3ee3a297f14.png",
+    "static/media/JENNIFER ARBOLEDA_RESUME 2022.pdf": "/portfolio-slay/static/media/JENNIFER ARBOLEDA_RESUME 2022.a9cd9cfabd288fa3995a.pdf",
+    "index.html": "/portfolio-slay/index.html",
+    "main.fea32d57.css.map": "/portfolio-slay/static/css/main.fea32d57.css.map",
+    "main.5035426c.js.map": "/portfolio-slay/static/js/main.5035426c.js.map",
+    "787.e3b66f14.chunk.js.map": "/portfolio-slay/static/js/787.e3b66f14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fea32d57.css",
+    "static/js/main.5035426c.js"
+  ]
+}
