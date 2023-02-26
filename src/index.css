@@ -6,9 +6,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -16,7 +14,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 /* navbar */
@@ -95,7 +93,6 @@ nav li:hover::after{
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
   margin: 0 auto;
 }
 
@@ -125,30 +122,36 @@ nav li:hover::after{
   gap: .8rem;
   text-align: center;
   padding: 1rem;
+  color:#f5f5f5;
 }
 
 .right-container>:nth-child(2) {
   color:#f5f5f5;
   font-size: 48px;
+  font-family: 'Bangers', cursive;
 }
 
-.button {
+button, .button {
   border-radius: 34px;
   border: none;
   color: #f5f5f5;
   background-color: rgb(79, 79, 79);
   margin: 0 auto;
-  
+  transition: all 0.3s;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.button:hover {
+button:hover, .button:hover {
+  transform: translateY(-3px);
   background-color: #f5f5f5;
   color:  rgb(79, 79, 79);
+  border: 1px solid rgb(79, 79, 79);
+
 }
 
 .hero-button {
   width: 8rem;
-  height: 2rem;
+  height: 2.5rem;
   font-size: 1rem;
 }
 
@@ -157,7 +160,6 @@ nav li:hover::after{
 .project-container p {
   font-size: 18px;
   padding: 10px 30px;
-
 }
 
 .project-container {
@@ -165,9 +167,7 @@ nav li:hover::after{
   flex-wrap: wrap;
   align-items: stretch;
   text-align: center;
-  justify-content: space-evenly;
   margin-top: 2rem;
-  gap: 3rem;
 }
 
 .project-container h2 {
@@ -181,10 +181,14 @@ nav li:hover::after{
 
 .card {
   flex: 1 0 calc(33.33% - 10px);
+  padding: 50px;
+}
+
+.project-img {
+  width: 250px;
 }
 
 /* contact */
-
 .right-container .user {
   width: 20rem;
   height: 2rem;
@@ -203,35 +207,41 @@ nav li:hover::after{
   gap: 1.5rem;
   align-items: center;
   box-sizing: border-box;
+  padding: 50px;
 }
 
 .contact-container .left-container {
   font-size: 2rem;
   color: #f5f5f5;
-
+  padding: 50px;
+  justify-content: center;
 }
 
 .message-container {
   color: #f5f5f5;
 }
  
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
 textarea {
   min-height: 6rem;
   max-height: 12rem;
   min-width: 20rem;
   max-width: 20rem;
-}
-
-.contact-button {
-  padding: 10px;
-  margin: 20px 5px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .resume-container {
 background-color: #f5f5f5;
 height: 50vh;
 }
-.resume-button {
+.resume-container h2 {
+padding: 40px;
+}
+
+.resume-button, .contact-button{
   width: 10rem;
   height: 2rem;
   font-size: 1rem;
@@ -280,7 +290,7 @@ height: 50vh;
   }
 
   .project-container h2 {
-  padding: 20px  
+  padding: 50px  
 }
 
   .project-container p {
@@ -305,6 +315,7 @@ height: 50vh;
 
    .card {
     flex-basis: 100%;
+    padding: 10px;
   }
 
   .contact-container {
@@ -322,7 +333,25 @@ height: 50vh;
 
   .resume-container h2 {
     font-size: 32px;
-    padding: 20px;;
+    padding: 40px;;
   }
   
+}
+
+/* Utility classes */
+
+/* Animations */
+@keyframes slideInLeft {
+  
+  from {
+    transform: translateX(-500px)
+  }
+
+  to {
+    transform: translateX(0)
+  }
+}
+
+.slideInLeft {
+  animation: slideInLeft 1s ease-in 1 normal;
 }

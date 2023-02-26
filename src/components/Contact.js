@@ -23,7 +23,7 @@ const Contact = () => {
         <>
         <div className='contact-container' id='contact'>
                 <div className='left-container'>
-                    <h2>Get in Touch</h2>
+                    <h2>Get in Touch with Me</h2>
                 </div>
 
                 <div className='right-container'>
