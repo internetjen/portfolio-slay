@@ -96,6 +96,7 @@ nav li:hover::after{
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  height: 100vh;
 }
 
 .hero-container p , .contact-container p {
