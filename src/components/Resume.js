@@ -18,12 +18,12 @@ const Resume = () => {
                     <h2>Proficiencies</h2>
                 </div>
                 <div>
-                <i class="fa-brands fa-square-js"></i><p>JavaScript</p>
-                <i class="fa-brands fa-react"></i><p>React</p>
-                <i class="fa-solid fa-database"></i><p>SQL</p>
-                <i class="fa-brands fa-node-js"></i><p>Node.js</p>
-                <i class="fa-brands fa-html5"></i><p>HTML</p>
-                <i class="fa-brands fa-css3-alt"></i><p>CSS</p>
+                <p><i class="fa-brands fa-square-js"></i>JavaScript</p>
+                <p><i class="fa-brands fa-react"></i>React</p>
+                <p><i class="fa-solid fa-database"></i>SQL</p>
+                <p><i class="fa-brands fa-node-js"></i>Node.js</p>
+                <p><i class="fa-brands fa-html5"></i>HTML</p>
+                <p><i class="fa-brands fa-css3-alt"></i>CSS</p>
                 </div>
             </div>
             <div className='resume-right'>
