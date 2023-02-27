@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-slay/static/css/main.fea32d57.css",
-    "main.js": "/portfolio-slay/static/js/main.5035426c.js",
+    "main.css": "/portfolio-slay/static/css/main.660a6c46.css",
+    "main.js": "/portfolio-slay/static/js/main.347ccd01.js",
     "static/js/787.e3b66f14.chunk.js": "/portfolio-slay/static/js/787.e3b66f14.chunk.js",
     "static/media/me_circle.png": "/portfolio-slay/static/media/me_circle.1547ae4be3ee3a297f14.png",
     "static/media/JENNIFER ARBOLEDA_RESUME 2022.pdf": "/portfolio-slay/static/media/JENNIFER ARBOLEDA_RESUME 2022.a9cd9cfabd288fa3995a.pdf",
+    "static/media/project-2.png": "/portfolio-slay/static/media/project-2.80d8800964a001012971.png",
+    "static/media/project-3.png": "/portfolio-slay/static/media/project-3.3476f958edd5aebaa129.png",
+    "static/media/project-4.png": "/portfolio-slay/static/media/project-4.50a87e92bf4385e565a2.png",
     "index.html": "/portfolio-slay/index.html",
-    "main.fea32d57.css.map": "/portfolio-slay/static/css/main.fea32d57.css.map",
-    "main.5035426c.js.map": "/portfolio-slay/static/js/main.5035426c.js.map",
+    "main.660a6c46.css.map": "/portfolio-slay/static/css/main.660a6c46.css.map",
+    "main.347ccd01.js.map": "/portfolio-slay/static/js/main.347ccd01.js.map",
     "787.e3b66f14.chunk.js.map": "/portfolio-slay/static/js/787.e3b66f14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fea32d57.css",
-    "static/js/main.5035426c.js"
+    "static/css/main.660a6c46.css",
+    "static/js/main.347ccd01.js"
   ]
 }
