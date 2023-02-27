@@ -413,14 +413,15 @@ padding: 40px;
 
   .resume-container h2 {
     font-size: 32px;
-    padding: 40px;;
+    padding: 20px;;
   }
 
-  .resume-left div {
+  .resume-container div {
     padding-bottom: 40px;
   }
   .resume-right {
     border-top: 1px solid rgb(79, 79, 79);
+    padding: 40px
   }
   
 }
