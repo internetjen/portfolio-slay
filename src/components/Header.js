@@ -8,12 +8,12 @@ class Header extends Component {
         <>
         <div className='hero-container'>
             <div className='left-container'>
-                <img class='slideInLeft' src={profile} alt='profile'/>
+                <img src={profile} alt='profile'/>
             </div>
 
             <div className='right-container' id='about'>
                 <p>Hi, my name is</p>
-                <p>Jennifer Arboleda</p>
+                <p className='slideInLeft'>Jennifer Arboleda</p>
                 <p>I am a <span>software engineer</span> living in Chicago.</p>
                 <button className='button hero-button' onClick={() => window.location.href='#contact'}>Hire me</button>
             </div>
