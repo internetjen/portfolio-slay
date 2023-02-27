@@ -173,7 +173,7 @@ button:hover, .button:hover {
 }
 
 .project-container h2 {
-  margin: 20px;
+  padding: 20px;
 }
 
 .project-container button {
@@ -183,12 +183,19 @@ button:hover, .button:hover {
 
 .card {
   flex: 1 0 calc(33.33% - 10px);
-  padding: 50px;
+  padding: 30px;
 }
 
 .project-img {
   width: 250px;
 }
+
+.project-shadow {
+  background-color: #f5f5f5;
+  box-shadow: 8px 8px 7px rgb(127, 127, 127);
+  border-radius: 10px;
+}
+
 
 /* contact */
 .right-container .user {
@@ -294,26 +301,20 @@ padding: 40px;
 .footer-container div {
   display: flex;
   justify-content: center;
-  padding: 10px 5px;
 }
 
 .footer-container i {
   color: #f5f5f5;
-  width: 50px;
 }
 
 .footer-container ul {
-  padding:0;
+  padding: 15px;
   margin: 0;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-}
-
-.footer-container li {
-  width: 30px;
 }
 
 .footer-container p {
