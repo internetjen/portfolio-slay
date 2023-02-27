@@ -1,6 +1,6 @@
 import Navigation from './components/Navigation'
 import Header from './components/Header';
-import Project from './components/Project'
+import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -8,9 +8,9 @@ import Resume from './components/Resume';
 
 const App = () => 
   <div>
-        <Navigation />
+      <Navigation />
         <Header />
-        <Project />
+        <Portfolio />
         <Contact />
         <Resume />
         <Footer />
