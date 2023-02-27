@@ -87,7 +87,9 @@ nav li:hover::after{
 
 
 /* header */
-.hero-container, .contact-container, .resume-container {
+.hero-container, 
+.contact-container, 
+.resume-container {
   background-color: #D34F31;
   display: flex;
   justify-content: center;
@@ -235,8 +237,25 @@ textarea {
 
 .resume-container {
 background-color: #f5f5f5;
-height: 50vh;
+display: flex;
+justify-content: space-evenly;
+height: 100vh;
 }
+
+.resume-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-left div {
+  display: flex;
+  flex: 1 0 calc(33.33%);
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .resume-container h2 {
 padding: 40px;
 }
@@ -350,6 +369,11 @@ padding: 40px;
   }
 
   .hero-container {
+    flex-direction: column;
+  }
+
+  .resume-container {
+    height: 100vh;
     flex-direction: column;
   }
 
