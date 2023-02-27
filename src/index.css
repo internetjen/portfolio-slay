@@ -413,6 +413,13 @@ padding: 40px;
     font-size: 32px;
     padding: 40px;;
   }
+
+  .resume-left div {
+    padding-bottom: 40px;
+  }
+  .resume-right {
+    border-top: 1px solid rgb(79, 79, 79);
+  }
   
 }
 
