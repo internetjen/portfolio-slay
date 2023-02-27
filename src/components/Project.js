@@ -9,7 +9,7 @@ class Project extends Component {
     render() {
     return (
         <>
-        <div className='project-container' id='projects'>
+        <div className='project-container' id='portfolio'>
            <div className='card'>
                 <h2>Project 1</h2>
                 <img className='project-img' src={firstProject} alt='placeholderImg'></img>

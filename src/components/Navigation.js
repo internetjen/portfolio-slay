@@ -4,8 +4,7 @@ class Navigation extends Component {
     state = { clicked: false }
 
     handleClick = () => {
-        this.setState({clicked:
-        !this.state.clicked})
+        this.setState({ clicked: !this.state.clicked })
     }
 
     render() {
@@ -20,14 +19,13 @@ class Navigation extends Component {
                 <ul id='navbar' 
                 className={this.state.clicked ?
                     "#navbar active" : "#navbar"}>
-                    <li><a href='#about'>About</a></li>
-                    <li><a href='#projects'>Projects</a></li>
-                    <li><a href='#contact'>Contact</a></li>
-                    <li><a href='#resume'>Resume</a></li>
+                    <li><a href='#about' onClick={this.handleClick}>About</a></li>
+                    <li><a href='#portfolio' onClick={this.handleClick}>Portfolio</a></li>
+                    <li><a href='#contact' onClick={this.handleClick}>Contact</a></li>
+                    <li><a href='#resume' onClick={this.handleClick}>Resume</a></li>
                 </ul>
             </div>
             <div id='mobile'onClick={this.handleClick}>
-
                 <i id="bar"
                     className={this.state.clicked ?
                     "fa-sharp fa-solid fa-xmark" :
