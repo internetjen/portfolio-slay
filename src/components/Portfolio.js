@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Project from './Project'
 import projectSample from '../assets/project-sample.png'
+import hoodlinkedImage from '../assets/hoodlinkedImage.png'
 
 class Portfolio extends Component {
 
@@ -11,11 +12,11 @@ class Portfolio extends Component {
 
     const projects = [
         {
-            title: 'Project 1',
-            image: projectSample,
-            description: sampleDescription,
-            deployedUrl: 'https://internetjen.github.io/portfolio-slay/',
-            githubUrl: 'https://github.com/internetjen/'
+            title: 'Hoodlinked',
+            image: hoodlinkedImage,
+            description: "Hoodlinked is a community-based sharing app. Upload the items you want to share and join groups to list your items with members of your community!            ",
+            deployedUrl: 'https://hoodlinked.herokuapp.com/',
+            githubUrl: 'https://github.com/hoodlinked/hoodlinked'
         },
         {
             title: 'Project 2',
