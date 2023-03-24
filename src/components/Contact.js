@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = ({ darkMode }) => {
   const form = useRef();
 
   const [done, setDone] = useState(false);
@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='contact-container' id='contact'>
+      <div className={`contact-container ${darkMode ? 'dark' : ''}`} id='contact'>
         <div className='left-container'>
           <h2>Get in Touch with Me</h2>
         </div>

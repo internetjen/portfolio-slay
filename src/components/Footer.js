@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({darkMode}) => {
   return (
     <>
-      <div className='footer-container'>
+      <div className={`footer-container ${darkMode ? 'dark' : ''}`}>
         <div>
           <ul >
             <li><a href='https://github.com/internetjen'><i class="fa-brands fa-github"></i></a></li>

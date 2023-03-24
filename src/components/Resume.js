@@ -1,7 +1,7 @@
 import React from 'react'
 import resumePDF from '../assets/JENNIFER ARBOLEDA_RESUME 2022.pdf'
 
-const Resume = () => {
+const Resume = ({ darkMode }) => {
 
     const handleClick = () => {
        const link = document.createElement('a');
@@ -12,7 +12,7 @@ const Resume = () => {
 
     return (
         <>
-        <div className='resume-container' id='resume'>
+        <div className={`resume-container ${darkMode ? 'dark' : ''}`} id='resume'>
             <div className='resume-left'>
                 <div>
                     <h2>Proficiencies</h2>
